@@ -460,11 +460,12 @@ footer h3 {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 10px 0px #EEE;
-  padding: 14px 14px 8px 14px;
+  padding: 14px 14px 0 14px;
   position: relative;
   transition: all ease .2s;
   margin: 0 0 20px;
   display: block;
+  height: 100%;
 }
 
 .thumbWrap .thumb:hover {
@@ -473,6 +474,10 @@ footer h3 {
 
 .thumbWrap .thumb figure img {
   width: auto
+}
+
+.thumbWrap .thumb .arrowWrap {
+  position: relative;
 }
 
 .arrow {
@@ -484,8 +489,8 @@ footer h3 {
   font-size: 14px;
   transition: all ease .2s;
   position: absolute;
-  bottom: 5px;
-  right: 10px;
+  bottom: 0;
+  right: 0;
   border-radius: 50px;
 }
 
@@ -629,7 +634,7 @@ footer h3 {
   justify-content: space-between;
   display: flex;
   gap: 10px;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 
 .inputNumGroup button {
@@ -642,6 +647,24 @@ footer h3 {
   height: 28px;
   width: 50%;
   padding: 0 10px;
+}
+
+.btnMinus {
+  border-color: #E70F14;
+  color: #E70F14 !important;
+}
+
+.btnMinus:hover {
+  background: #E70F14;
+}
+
+.btnPlus {
+  border-color: #44aa00;
+  color: #44aa00 !important;
+}
+
+.btnPlus:hover {
+  background: #44aa00;
 }
 
 .experiencesPopup li {
