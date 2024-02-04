@@ -742,6 +742,25 @@
     margin: 0 0 5px;
 }
 
+.addonInfo {
+    margin: 0 0 0 10px;
+    position: relative;
+    top: -1px;
+}
+.popover {
+    width: 500px;
+}
+
+.popover-body .row {
+    margin: 0 0 10px;
+}
+
+.popover-body .total {
+    margin: 0 0 10px;
+    padding: 5px 0;
+    background: #FEF3F3;
+}
+
 .stickyMenuSec .addedIcon {
     width: 40px;
     height: 40px;

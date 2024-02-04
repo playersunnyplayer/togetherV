@@ -84,6 +84,10 @@ a:hover {
   background: #555;
 }
 
+.hidden {
+  display: none;
+}
+
 .header-search {
   background: #F5F5F5;
   position: relative;

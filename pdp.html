@@ -826,8 +826,34 @@
 				<div class="addon">
 					<label name="addon" for="addon">Addons Added</label>
 					<div class="d-flex align-items-center">
-						2
-						<button class="btn addedIcon" data-toggle="modal" data-target="#allAddonsPopup">+</button>
+						2 <img src="images/info-icon.svg" class="addonInfo" data-placement="top" data-popover-content="#a1" data-toggle="popover" data-trigger="focus" tabindex="0">
+
+						<!-- Content for Popover #1 -->
+						<div class="hidden" id="a1">
+							<div class="popover-heading">
+								Package Cost
+							</div>
+						
+							<div class="popover-body">
+								<div class="row">
+									<div class="col-sm-6">Bouquet</div>
+									<div class="col-sm-6 text-right">₹1000</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">Bouquet</div>
+									<div class="col-sm-6 text-right">₹1000</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">Bouquet</div>
+									<div class="col-sm-6 text-right">₹1000</div>
+								</div>
+								<div class="row total">
+									<div class="col-sm-6">Total Cost</div>
+									<div class="col-sm-6 text-right">₹1000</div>
+								</div>
+							</div>
+						</div>
+						<!-- <button class="btn addedIcon" data-toggle="modal" data-target="#allAddonsPopup">+</button> -->
 					</div>
 				</div>
 
