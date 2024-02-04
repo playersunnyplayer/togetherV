@@ -826,6 +826,17 @@
     box-shadow: 0px 4px 10px 0px rgb(231 15 20 / 10%);
 }
 
+.slotWrap .price {
+    background: rgb(231 15 20 / 10%);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 11px;
+    width: 100px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .pinFormAreaSec .inputGroup {
@@ -881,6 +892,7 @@
     .mainImage {
         order: 1;
         width: 100%;
+        max-height: max-content;
     }
 
     .rightPDPcontent {
