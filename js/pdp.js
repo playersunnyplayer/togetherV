@@ -47,6 +47,7 @@ $('.relatedServices-carousel').owlCarousel({
 
 $('.variants-carousel').owlCarousel({
     loop: false,
+    dots: false,
     margin: 10,
     autoPlay: false,
     responsive: {
@@ -58,6 +59,24 @@ $('.variants-carousel').owlCarousel({
         },
         1000: {
             items: 4,
+        }
+    }
+})
+
+$('.variants-carousel2').owlCarousel({
+    loop: false,
+    dots: false,
+    margin: 10,
+    autoPlay: false,
+    responsive: {
+        0: {
+            items: 1.2,
+        },
+        600: {
+            items: 2.2,
+        },
+        1000: {
+            items: 2.5,
         }
     }
 })
