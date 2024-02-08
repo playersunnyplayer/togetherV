@@ -77,10 +77,12 @@ a:hover {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #E70F14;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
   background: #555;
 }
 

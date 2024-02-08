@@ -40,18 +40,29 @@
     order: 2;
 }
 
+.mainImage img {
+    max-height: 100%
+}
+
 .leftImgThumbs,
 .mainImage {
+    display: flex;
     max-height: 380px;
+    align-items: center;
+    justify-content: center
 }
 
 .leftImgThumbs {
     gap: 10px;
-    display: flex;
     width: 20%;
-    flex-direction: column;
     order: 1;
+    flex-direction: column;
     overflow-y: auto;
+}
+
+.leftImgThumbs::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
 }
 
 .leftImg {
