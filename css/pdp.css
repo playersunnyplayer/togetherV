@@ -243,56 +243,6 @@
     width: 26%;
 }
 
-.selectSlot {
-    width: 24%;
-}
-
-.pinFormAreaSec .btn-primary {
-    width: auto;
-    margin: 0 0 0 auto;
-}
-
-.smileRow {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.smileCol {
-    display: flex;
-    align-items: center;
-    margin: 0 50px 20px 0;
-}
-
-.smileCol img {
-    height: 44px;
-    margin: 0 10px 0 0;
-}
-
-.smileCol small {
-    color: #C00;
-}
-
-.guaranted {
-    color: #000;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 18px;
-    margin: 10px 0 0;
-}
-
-.smileColRight {
-    position: relative;
-    top: 8px;
-}
-
-.smileColRight .thumb {
-    display: flex;
-}
-
-.smileColRight .thumb figure {
-    width: 30px;
-}
-
 .descriptionContainer {
     position: relative;
     margin: 50px 0 0;
@@ -822,7 +772,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 0 0 0 15px;
+    padding: 10px 0 10px 15px;
     border-radius: 5px;
     border: solid 1px rgb(231 15 20 / 10%);
     cursor: pointer;

@@ -1,0 +1,154 @@
+.checkoutHeader {
+    box-shadow: 0 0 10px rgb(231 15 20 / 27%);
+    background: rgb(254 243 243);
+    margin: 0 0 40px;
+}
+
+.leftLoginWrap {
+    display: flex;
+}
+
+.leftLoginWrap input {
+    margin: 0 0 10px
+}
+
+.rightArea {
+    padding: 0 0 0 30px;
+    margin-left: 30px;
+    border-left: solid 1px #ddd;
+    display: flex;
+}
+
+.card-header h2 {
+    margin: 0 0 10px;
+}
+
+.accordionNum {
+    background: rgb(254 243 243) !important;
+}
+
+.smallThumbnailsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin: 0;
+}
+
+.smallThumbnails {
+    width: 48%;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px 20px 20px;
+}
+
+.smallThumbnails .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 15px;
+}
+
+.smallThumbnails .inputNumGroup {
+    width: 130px;
+}
+
+.addressCard {
+    padding: 20px;
+    margin: 30px 0 20px !important;
+}
+
+.addressCard h4 {
+    margin: 0 0 20px
+}
+
+.radioWrap {
+    margin: 0 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.addNewAddr {
+    border: dashed 1px #E70F14;
+    padding: 10px;
+    color: #E70F14;
+    margin: 30px 0 30px;
+    transition: all ease .2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.addNewAddr:hover {
+    background: rgb(254 243 243);
+    padding-left: 20px;
+}
+
+.accordion .card-body {
+    padding: 0 24px 20px;
+}
+
+address {
+    border: solid 1px #ECECEC;
+    padding: 20px;
+}
+
+address h4 {
+    position: relative;
+    color: #000;
+}
+
+address .rightWrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap: 20px;
+}
+
+address .rightWrap button {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+}
+
+address .rightWrap button img {
+    height: 20px;
+}
+
+.filterSecWrap {
+    margin: 0 0 auto 0;
+    padding: 0;
+}
+
+.filterSecInside {
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.filterSecInside h4 {
+    margin: 0 0 14px
+}
+
+.accordion .card {
+    margin: 0 0 20px;
+}
+
+.cartContentArea {
+    padding: 0
+}
+
+.total {
+    background: rgb(238 238 238);
+    padding: 10px 5px;
+    margin: 10px -20px 0;
+    font-size: 16px;
+}
+
+.filterSecWrap .btn-primary {
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+.smileRow {
+    padding: 20px;
+}
