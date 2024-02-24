@@ -78,13 +78,7 @@
 }
 
 .addNewAddr {
-    border: dashed 1px #E70F14;
-    padding: 10px;
-    color: #E70F14;
     margin: 30px 0 30px;
-    transition: all ease .2s;
-    cursor: pointer;
-    text-align: center;
 }
 
 .addNewAddr:hover {

@@ -87,15 +87,15 @@ a:hover {
 }
 
 /* Chrome, Safari, Edge, Opera */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    appearance: none; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Firefox */
 input[type=number] {
-    -moz-appearance: textfield;
+  -moz-appearance: textfield;
 }
 
 .hidden {
@@ -211,6 +211,15 @@ h6 {
 
 .btn-trinary:hover {
   background: #fb9c08;
+}
+
+.btn-dashed {
+  border: dashed 1px #E70F14;
+  padding: 10px;
+  color: #E70F14;
+  transition: all ease .2s;
+  cursor: pointer;
+  text-align: center;
 }
 
 .logo {
@@ -596,7 +605,7 @@ footer h3 {
 }
 
 .accordion .card-body ul {
-  list-style: disc;
+  list-style: none;
 }
 
 .accordion .collapse {
@@ -1027,30 +1036,33 @@ input[type="checkbox"] {
 }
 
 .smallWidgetThumb {
-    background: rgb(231 15 20 / 0.05);
-    padding: 14px;
-    border-radius: 10px;
-    margin: 0 0 20px;
-    display: block;
+  background: rgb(231 15 20 / 0.05);
+  padding: 14px;
+  border-radius: 10px;
+  margin: 0 0 20px;
+  display: block;
 }
+
 .smallWidgetThumb figure {
-    margin: 0 0 10px;
-    overflow: hidden;
-    border-radius: 10px;
+  margin: 0 0 10px;
+  overflow: hidden;
+  border-radius: 10px;
 }
+
 .smallWidgetThumb img {
   transition: all ease .2s;
   width: 100%;
 }
+
 .smallWidgetThumb figcaption {
-    font-size: 18px;
-    font-weight: 700;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
   transition: all ease .2s;
 }
 
@@ -1058,7 +1070,9 @@ input[type="checkbox"] {
   color: #e70f14
 }
 
-.smallWidgetThumb:hover img {transform: scale(1.1);}
+.smallWidgetThumb:hover img {
+  transform: scale(1.1);
+}
 
 .heartFrame1,
 .heartFrame2 {
@@ -1082,42 +1096,50 @@ input[type="checkbox"] {
 }
 
 .discountedInnerSec {
-    display: flex;
+  display: flex;
 }
+
 .discountedInnerSec .colLeft {
-    width: 50%;
-    background: rgb(254 243 243);
-    padding: 20px;
+  width: 50%;
+  background: rgb(254 243 243);
+  padding: 20px;
 }
+
 .discountedInnerSec .smallThumbnails {
-    background: #fff;
-    border-radius: 5px;
-    padding: 5px 20px 5px 5px;
-    justify-content: flex-start;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px 20px 5px 5px;
+  justify-content: flex-start;
 }
+
 .discountedInnerSec .smallThumbnails:not(:last-child) {
-    margin: 0 0 20px;
+  margin: 0 0 20px;
 }
+
 .discountedInnerSec .smallThumbnails figure {
   margin: 0 20px 0 0;
   height: 120px;
   width: 120px;
 }
+
 .discountedInnerSec .price {
-  font-size:18px;
+  font-size: 18px;
   font-weight: 700;
   margin: 10px 0;
 }
+
 .discountedInnerSec .colRight {
-    width: 50%;
-    position: relative;
+  width: 50%;
+  position: relative;
 }
+
 .discountedInnerSec .discountCurveSec {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    padding: 20px 0 0 20px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 20px 0 0 20px;
 }
+
 .discountedInnerSec .discountCurveSec p,
 .discountedInnerSec .discountCurveSec h3 {
   position: relative;
@@ -1125,17 +1147,20 @@ input[type="checkbox"] {
   color: #fff;
   zoom: 1.5;
 }
+
 .discountedInnerSec .discountCurveSec h3 {
-    margin: 5px 0 0;
+  margin: 5px 0 0;
 }
+
 .discountCurve {
-    position: absolute;
-    top: 0;
-    left: -4px;
-    z-index: 0;
+  position: absolute;
+  top: 0;
+  left: -4px;
+  z-index: 0;
 }
+
 .discountImg {
-    height: 100%;
+  height: 100%;
 }
 
 .fourColumnLayoutSec {
@@ -1154,6 +1179,48 @@ input[type="checkbox"] {
 
 .fourColumnLayout_Middle .subCategoriesThumb {
   width: 50%
+}
+
+
+
+.nav-item {
+  margin: 20px 0 0;
+}
+
+.nav-pills {
+  border-bottom: solid 1px #C4C4C4;
+}
+
+.nav-pills .nav-link {
+  background: none;
+  border: 0;
+  border-bottom: solid 3px transparent;
+  font-size: 18px;
+  font-weight: 700;
+  color: #606060;
+  padding: 0 0 6px;
+  cursor: pointer;
+  margin: 0 50px 0 0;
+}
+
+.nav-pills .nav-link:focus {
+  outline: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #C00;
+  background: none;
+  border-color: #C00;
+  border-radius: 0;
+}
+
+.tab-content {
+  padding: 20px 0 0;
+}
+
+.tab-content h4 {
+  margin: 0 0 20px;
 }
 
 @keyframes rotate {
@@ -1321,10 +1388,12 @@ input[type="checkbox"] {
   .noPadMob {
     padding: 0;
   }
+
   .discountedInnerSec .colLeft {
     width: 100%;
     border-radius: 10px;
   }
+
   .colRight {
     display: none;
   }
