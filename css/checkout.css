@@ -155,3 +155,83 @@ address .rightWrap button img {
 .smileRow {
     padding: 20px;
 }
+
+.contentWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentLeft {
+    margin: 0 0 30px;
+}
+.acceptThumbSec {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+}
+.acceptThumb {text-align: center;}
+.acceptThumb figure {
+    height: 50px;
+    width: 50px;
+    border: solid 1px #ECECEC;#ECECEC:;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 auto 5px;
+    overflow: hidden;
+}
+
+.btn.acceptThumb {height: auto;padding: 0;width: 46%;padding: 20px;position: relative;border: solid 1px #ECECEC;}
+
+.btn.acceptThumb figure {height: auto;width: 46%;padding: 20px;}
+
+.btn.acceptThumb.selected {
+    position: relative;
+    border: solid 1px #161616;
+}
+.btn.acceptThumb.selected:after {
+    content: "\2713";
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.veritcalMenu {
+    display: flex;
+    width: 100%;
+}
+
+.veritcalMenu .nav {
+    border: 0;
+    flex-direction: column;
+    width: 30%;
+    background: #f9f9f9;
+}
+
+.veritcalMenu .tab-pane {
+    padding: 0 0 0 30px;
+}
+
+.veritcalMenu .nav-item {margin: 0;}
+
+.veritcalMenu .nav-link {
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px #ECECEC;
+}
+
+.veritcalMenu .nav-link.active {
+    border-left: solid 5px #000;
+}
+
+.veritcalMenu .tab-content {
+    width: 70%;
+    padding: 0;
+}
+
+.selectBank {
+    padding: 10px;
+    width: 100%;
+    margin: 0px 0 0;
+}
