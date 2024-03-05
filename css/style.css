@@ -1185,8 +1185,6 @@ input[type="checkbox"] {
   width: 50%
 }
 
-
-
 .nav-item {
   margin: 20px 0 0;
 }
@@ -1225,6 +1223,53 @@ input[type="checkbox"] {
 
 .tab-content h4 {
   margin: 0 0 20px;
+}
+
+.smallThumbnailsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin: 0;
+}
+
+.smallThumbnails {
+  width: 48%;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px 20px 20px;
+}
+
+.smallThumbnails .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+}
+
+.smallThumbnails .inputNumGroup {
+  width: 130px;
+}
+
+.filterSecInside {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.filterSecInside h4 {
+  margin: 0 0 14px
+}
+
+.filterSecInside .btn-primary {
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+.totalFinalPrice {
+    background: rgb(238 238 238);
+    padding: 10px 5px;
+    margin: 10px -20px 0;
+    font-size: 16px;
 }
 
 @keyframes rotate {

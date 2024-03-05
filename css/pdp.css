@@ -782,6 +782,37 @@
     text-align: center;
 }
 
+.smallThumbnails {
+    width: 100%;
+}
+
+.modal.fade.right .modal-dialog {
+    position: absolute;
+    /* right: 0; */
+    margin: 0;
+    width: 100%;
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.fade.right.fade .modal-dialog {
+    right: 0;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.fade.right .modal-content {
+    height: 100vh;
+}
+
+.modal.fade.right .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.smallThumbnailsWrap {
+    max-height: 380px;
+    overflow-y: auto;
+}
 
 @media only screen and (max-width: 1024px) {
     .pinFormAreaSec .inputGroup {

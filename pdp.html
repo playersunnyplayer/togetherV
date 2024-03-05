@@ -171,11 +171,13 @@
 
 				<div class="header-item item-right">
 					<a href="#"><img src="images/location-icon.svg" alt=""></a>
-					<a href="#"><img src="images/cart-icon.svg" alt=""></a>
+					<a href="#" data-toggle="modal" data-target="#cartPopup"><img src="images/cart-icon.svg" alt=""></a>
 					<a href="#"><img src="images/user-icon.svg" alt=""></a>
 				</div>
 			</div>
 		</div>
+
+
 
 		<div class="categoryRowHeader">
 			<div class="container">
@@ -431,7 +433,8 @@
 						<img class="leftImg" width="80" data-img="images/sub-img-3.jpg" src="images/sub-img-3.jpg">
 						<img class="leftImg" width="80" data-img="images/sub-img-4.jpg" src="images/sub-img-4.jpg">
 					</div>
-					<a href="images/sub-img-4.jpg" id="fancyboxlink" data-fancybox="" data-wow-delay="1600" class="mainImage">
+					<a href="images/sub-img-4.jpg" id="fancyboxlink" data-fancybox="" data-wow-delay="1600"
+						class="mainImage">
 						<img id="mainImg" src="images/sub-img-4.jpg" alt="">
 					</a>
 				</div>
@@ -684,8 +687,8 @@
 								<label name="pin" for="pin">Pin Code</label>
 							</div>
 							<div class="inputGroup inputDate">
-								<input class="balloon form-control datepicker is-invalid" id="deldate" value="" type="text"
-									placeholder="Enter Delivery Date" />
+								<input class="balloon form-control datepicker is-invalid" id="deldate" value=""
+									type="text" placeholder="Enter Delivery Date" />
 								<label name="deldate" for="deldate">Delivery Date</label>
 							</div>
 							<div class="inputGroup selectSlot">
@@ -873,14 +876,15 @@
 				<div class="addon">
 					<label name="addon" for="addon">Addons Added</label>
 					<div class="d-flex align-items-center">
-						2 <img src="images/info-icon.svg" class="addonInfo" data-placement="top" data-popover-content="#a1" data-toggle="popover" data-trigger="focus" tabindex="0">
+						2 <img src="images/info-icon.svg" class="addonInfo" data-placement="top"
+							data-popover-content="#a1" data-toggle="popover" data-trigger="focus" tabindex="0">
 
 						<!-- Content for Popover #1 -->
 						<div class="hidden" id="a1">
 							<div class="popover-heading">
 								Package Cost
 							</div>
-						
+
 							<div class="popover-body">
 								<div class="row">
 									<div class="col-sm-6">Bouquet</div>
@@ -1821,8 +1825,8 @@
 		</div>
 	</div>
 
-	<div class="modal fade slotPopup" id="slotPopup" tabindex="-1" role="dialog"
-		aria-labelledby="ExperiencesPopupLabel" aria-hidden="true">
+	<div class="modal fade slotPopup" id="slotPopup" tabindex="-1" role="dialog" aria-labelledby="ExperiencesPopupLabel"
+		aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content verticalText_model">
 				<div class="modal-body">
@@ -2123,6 +2127,121 @@
 							<div class="col-md-4">
 								<button type="button" class="btn btn-primary">Save changes</button>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade right" id="cartPopup" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Your Cart <span class="primaryColor">(2)</span></h4>
+					<button type="button" class="close" data-dismiss="modal">&times;<span class="sr-only">Close</span></button>
+				</div>
+				<div class="modal-body">
+					<div class="smallThumbnailsWrap">
+						<div class="smallThumbnails">
+							<figure>
+								<img src="images/sub-img-4.jpg" alt="">
+							</figure>
+							<div>
+								<p>Flower Ring Bouquet</p>
+								₹ 2573 x 1
+								<div class="inputNumGroup">
+									<button class="btn btn-outline-secondary btnMinus">-</button>
+									<input type="number" id="quantity" value="">
+									<button class="btn btn-outline-secondary btnPlus">+</button>
+								</div>
+								<img src="images/close-icon.svg" class="close" alt="">
+							</div>
+						</div>
+						<div class="smallThumbnails">
+							<figure>
+								<img src="images/sub-img-4.jpg" alt="">
+							</figure>
+							<div>
+								<p>Flower Ring Bouquet</p>
+								₹ 2573 x 1
+								<div class="inputNumGroup">
+									<button class="btn btn-outline-secondary btnMinus">-</button>
+									<input type="number" id="quantity" value="">
+									<button class="btn btn-outline-secondary btnPlus">+</button>
+								</div>
+								<img src="images/close-icon.svg" class="close" alt="">
+							</div>
+						</div>
+						<div class="smallThumbnails">
+							<figure>
+								<img src="images/sub-img-4.jpg" alt="">
+							</figure>
+							<div>
+								<p>Flower Ring Bouquet</p>
+								₹ 2573 x 1
+								<div class="inputNumGroup">
+									<button class="btn btn-outline-secondary btnMinus">-</button>
+									<input type="number" id="quantity" value="">
+									<button class="btn btn-outline-secondary btnPlus">+</button>
+								</div>
+								<img src="images/close-icon.svg" class="close" alt="">
+							</div>
+						</div>
+						<div class="smallThumbnails">
+							<figure>
+								<img src="images/sub-img-4.jpg" alt="">
+							</figure>
+							<div>
+								<p>Flower Ring Bouquet</p>
+								₹ 2573 x 1
+								<div class="inputNumGroup">
+									<button class="btn btn-outline-secondary btnMinus">-</button>
+									<input type="number" id="quantity" value="">
+									<button class="btn btn-outline-secondary btnPlus">+</button>
+								</div>
+								<img src="images/close-icon.svg" class="close" alt="">
+							</div>
+						</div>
+						<div class="smallThumbnails">
+							<figure>
+								<img src="images/sub-img-4.jpg" alt="">
+							</figure>
+							<div>
+								<p>Flower Ring Bouquet</p>
+								₹ 2573 x 1
+								<div class="inputNumGroup">
+									<button class="btn btn-outline-secondary btnMinus">-</button>
+									<input type="number" id="quantity" value="">
+									<button class="btn btn-outline-secondary btnPlus">+</button>
+								</div>
+								<img src="images/close-icon.svg" class="close" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="cartPopupFooter">
+						<div class="filterSecInside">
+							<h4>Price Details</h4>
+		
+							<div class="row">
+								<div class="col-sm-6">Total Product Price</div>
+								<div class="col-sm-6 text-right">₹ 2573</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">Shipping</div>
+								<div class="col-sm-6 text-right">₹ 2573</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">Convenience Charge</div>
+								<div class="col-sm-6 text-right">₹ 2573</div>
+							</div>
+					<div class="row totalFinalPrice">
+						<div class="col-sm-6">TOTAL</div>
+						<div class="col-sm-6 text-right">₹ 2573</div>
+					</div>
+		
+							<button class="btn btn-primary">Proceed to pay</button>
 						</div>
 					</div>
 				</div>

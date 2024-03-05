@@ -24,9 +24,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    }
+}
 
-.leftLoginWrap .rightArea i {font-size: 20px;}
+.leftLoginWrap .rightArea i {
+    font-size: 20px;
+}
 
 .card-header h2 {
     margin: 0 0 10px;
@@ -34,32 +36,6 @@
 
 .accordionNum {
     background: rgb(254 243 243) !important;
-}
-
-.smallThumbnailsWrap {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 10px;
-    margin: 0;
-}
-
-.smallThumbnails {
-    width: 48%;
-    justify-content: flex-start;
-    gap: 20px;
-    padding: 10px 20px 20px;
-}
-
-.smallThumbnails .close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 15px;
-}
-
-.smallThumbnails .inputNumGroup {
-    width: 130px;
 }
 
 .addressCard {
@@ -123,33 +99,12 @@ address .rightWrap button img {
     padding: 0;
 }
 
-.filterSecInside {
-    background: #f9f9f9;
-    padding: 20px;
-}
-
-.filterSecInside h4 {
-    margin: 0 0 14px
-}
-
 .accordion .card {
     margin: 0 0 20px;
 }
 
 .cartContentArea {
     padding: 0
-}
-
-.total {
-    background: rgb(238 238 238);
-    padding: 10px 5px;
-    margin: 10px -20px 0;
-    font-size: 16px;
-}
-
-.filterSecWrap .btn-primary {
-    width: 100%;
-    margin: 20px 0 0;
 }
 
 .smileRow {
@@ -160,9 +115,11 @@ address .rightWrap button img {
     display: flex;
     flex-wrap: wrap;
 }
+
 .contentLeft {
     margin: 0 0 30px;
 }
+
 .acceptThumbSec {
     display: flex;
     gap: 30px;
@@ -170,25 +127,42 @@ address .rightWrap button img {
     flex-wrap: wrap;
     margin: 0 0 40px;
 }
-.acceptThumb {text-align: center;}
+
+.acceptThumb {
+    text-align: center;
+}
+
 .acceptThumb figure {
     height: 50px;
     width: 50px;
-    border: solid 1px #ECECEC;#ECECEC:;
+    border: solid 1px #ECECEC;
+    #ECECEC: ;
     border-radius: 50%;
     padding: 0;
     margin: 0 auto 5px;
     overflow: hidden;
 }
 
-.btn.acceptThumb {height: auto;padding: 0;width: 46%;padding: 20px;position: relative;border: solid 1px #ECECEC;}
+.btn.acceptThumb {
+    height: auto;
+    padding: 0;
+    width: 46%;
+    padding: 20px;
+    position: relative;
+    border: solid 1px #ECECEC;
+}
 
-.btn.acceptThumb figure {height: auto;width: 46%;padding: 20px;}
+.btn.acceptThumb figure {
+    height: auto;
+    width: 46%;
+    padding: 20px;
+}
 
 .btn.acceptThumb.selected {
     position: relative;
     border: solid 1px #161616;
 }
+
 .btn.acceptThumb.selected:after {
     content: "\2713";
     position: absolute;
@@ -213,7 +187,9 @@ address .rightWrap button img {
     padding: 0 0 0 30px;
 }
 
-.veritcalMenu .nav-item {margin: 0;}
+.veritcalMenu .nav-item {
+    margin: 0;
+}
 
 .veritcalMenu .nav-link {
     border: none;
