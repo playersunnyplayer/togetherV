@@ -800,7 +800,7 @@
 }
 
 .modal.fade.right .modal-content {
-    height: 100vh;
+    height: 100%;
 }
 
 .modal.fade.right .modal-body {
