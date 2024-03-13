@@ -229,6 +229,7 @@ h6 {
 
 .logo {
   height: 40px;
+  margin: 0 0 0 50px;
 }
 
 .logo a {
@@ -750,7 +751,7 @@ footer h3 {
 
 .playStorePromotionSec {
   position: relative;
-  padding: 100px 0 0;
+  padding: 40px 0 0;
   background: rgb(231 15 20 / 0.05);
 }
 
@@ -770,7 +771,7 @@ footer h3 {
 }
 
 .playStorePromotionSec .leftSec {
-  padding: 50px 0 0 20%;
+  padding: 100px 0 0 20%;
 }
 
 .playStorePromotionSec .get {
@@ -778,14 +779,14 @@ footer h3 {
   font-style: normal;
   font-weight: 700;
   color: #E70F14;
-  margin: 0 0 14px;
+  margin: 0 0 24px;
 }
 
 .playStorePromotionSec .onYour {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 
 .storeWrap {
@@ -994,6 +995,10 @@ input[type="checkbox"] {
   margin: 40px 0;
 }
 
+.bannerSec img {
+  width: 100%
+}
+
 .loadMoreSec {
   margin: 10px 0 50px;
   width: 100%;
@@ -1030,6 +1035,7 @@ input[type="checkbox"] {
   width: 70px;
   border-radius: 5px;
   overflow: hidden;
+  margin: 0 0 0 auto;
 }
 
 .smallThumbnails:hover {
@@ -1102,11 +1108,12 @@ input[type="checkbox"] {
 
 .discountedInnerSec {
   display: flex;
+  justify-content: space-between;
+  background: rgb(254 243 243);
 }
 
 .discountedInnerSec .colLeft {
   width: 50%;
-  background: rgb(254 243 243);
   padding: 20px;
 }
 
@@ -1134,13 +1141,13 @@ input[type="checkbox"] {
 }
 
 .discountedInnerSec .colRight {
-  width: 50%;
   position: relative;
 }
 
 .discountedInnerSec .discountCurveSec {
   position: absolute;
   top: 0px;
+  right: 0;
   width: 100%;
   padding: 20px 0 0 20px;
 }
@@ -1166,6 +1173,8 @@ input[type="checkbox"] {
 
 .discountImg {
   height: 100%;
+  margin: 0 0 0 auto;
+  float: right;
 }
 
 .fourColumnLayoutSec {
@@ -1235,10 +1244,9 @@ input[type="checkbox"] {
 }
 
 .smallThumbnails {
-  width: 48%;
   justify-content: flex-start;
   gap: 20px;
-  padding: 10px 20px 20px;
+  padding: 10px 10px 10px;
 }
 
 .smallThumbnails .close {
@@ -1296,10 +1304,6 @@ input[type="checkbox"] {
     justify-content: space-between;
 }
 
-.smallThumbnails {
-    width: 100%;
-}
-
 .smallThumbnailsWrap {
     max-height: 380px;
     overflow-y: auto;
@@ -1345,6 +1349,10 @@ input[type="checkbox"] {
 @media screen and (max-width: 980px) {}
 
 @media only screen and (max-width: 767px) {
+  .logo {
+    margin: 0 
+  }
+  
   .header-search {
     margin: 0 0 0 auto;
     background: none;

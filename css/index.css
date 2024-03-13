@@ -1,0 +1,101 @@
+.homeBannerSec {
+    display: flex;
+}
+.bannerContent {
+    width: 50%;
+    padding: 0 180px 0 0;
+}
+.bannerHeading {
+    font-size: 38px;
+    margin: 50px 0 30px;
+    line-height: 44px;
+}
+.bannerContent p {}
+.mainBanner {
+    width: 55%;
+    position: relative;
+    margin: 20px 0 0;
+}
+.mainBanner .dottes {
+    position: absolute;
+    right: -60px;
+    bottom: -34px;
+}
+.plane-sketch {
+    position: absolute;
+    transform: translate(-86%, 43%);
+}
+.homeBanner {}
+
+.homeBanner .owl-item {}
+
+.homeBanner img {
+}
+
+.homeCategorySec {
+    background: rgb(231 15 20 / 10%);
+    margin: -50px 0 0;
+    padding: 80px 0 0;
+}
+.homeCategories {}
+.homeCategories a {
+    background: #fff;
+    display: block;
+    margin: 20px 10px 8px;
+    padding: 0 8px 20px;
+    box-shadow: 0 6px 10px rgb(231 14 20 / 10%);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.homeCategories figure {height: 100px;width: 100px;margin: 0 auto 0px;position: relative;top: -17px;}
+.homeCategories figcaption {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.giftFinderSec {
+    background: #fff;
+    border: solid 2px rgb(231 15 20 / 20%);
+    border-radius: 10px;
+    position: relative;
+    bottom: -30px;
+    box-shadow: 0 7px 10px rgb(231 15 20 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 60px;
+}
+.giftFinderSec .heading {
+    position: relative;
+    background: rgb(231 15 20 / 20%);
+    height: 100%;
+    margin: auto 0;
+    padding: 30px;
+    width: 180px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 8px 0 0 8px;
+}
+.giftFinderSec .heading:after {
+    content: "";
+    top: 0;
+    right: -21px;
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    background: rgb(252 213 211);
+    transform: skewX(-24deg);
+}
+.giftFinderSec .feildWrap {
+    width: calc(100% - 180px);
+    justify-content: space-between;
+    display: flex;
+    padding: 0 20px 0 60px;
+    gap: 20px;
+}
+.giftFinderSec .inputGroup {
+    gap: 20px
+}

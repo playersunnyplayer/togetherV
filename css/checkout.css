@@ -86,9 +86,16 @@
     padding: 0 24px 20px;
 }
 
+.addressCompleteWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 address {
     border: solid 1px #ECECEC;
     padding: 20px;
+    width: 49%;
 }
 
 address h4 {
@@ -210,8 +217,17 @@ address .rightWrap button img {
     background: #f9f9f9;
 }
 
+.veritcalMenu ::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
 .veritcalMenu .tab-pane {
     padding: 0 0 0 30px;
+}
+
+.veritcalMenu .tab-pane .contentWrap {
+    justify-content: space-between;
 }
 
 .veritcalMenu .nav-item {
@@ -237,6 +253,15 @@ address .rightWrap button img {
     padding: 10px;
     width: 100%;
     margin: 0px 0 0;
+}
+
+.subThumb {
+    width: 90%;
+    margin: 0 0 10px auto;
+}
+
+.smallThumbnails figure {
+    margin: 0;
 }
 
 @media screen and (max-width: 980px) {
@@ -277,6 +302,39 @@ address .rightWrap button img {
     .addressCard {
         padding: 0;
         border: 0;
+    }
+    .veritcalMenu {
+        flex-direction: column;
+    }
+    .veritcalMenu .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-y: auto;
+    }
+    .veritcalMenu .nav-item {
+        min-width: 200px;
+    }
+    
+    .veritcalMenu .nav-link {
+        text-align: center;
+    }
+    
+    .veritcalMenu .nav-link.active {
+    border-bottom: solid 5px #000;
+    border-left: 0;
+    }
+    .veritcalMenu .tab-content {
+        width: 100%;
+        padding: 10px 0 0;
+    }
+    .veritcalMenu .tab-pane {
+        padding: 0;
+    }
+
+    .smallThumbnailsWrap .col-md-6 {
+        padding: 0;
     }
 }
 
