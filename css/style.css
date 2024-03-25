@@ -816,9 +816,8 @@ footer h3 {
 
 .productThumb figure img {
   border-radius: 10px;
-  max-width: inherit;
-  flex-shrink: 0;
-  min-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .productThumbContentArea {
@@ -1110,11 +1109,14 @@ input[type="checkbox"] {
   display: flex;
   justify-content: space-between;
   background: rgb(254 243 243);
+  padding: 0;
+  border-radius: 10px;
 }
 
 .discountedInnerSec .colLeft {
   width: 50%;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .discountedInnerSec .smallThumbnails {
@@ -1311,6 +1313,50 @@ input[type="checkbox"] {
 
 .owl-carousel {
   display: block;
+}
+
+.checkoutHeader {
+  box-shadow: 0 0 10px rgb(231 15 20 / 27%);
+  background: rgb(254 243 243);
+  margin: 0 0 40px;
+}
+
+
+
+.subCategoriesThumb {
+  margin: 0 0 10px;
+  padding: 0 6px;
+  width: 25%;
+}
+
+.subCategoriesThumb figure {
+  position: relative;
+  height: 100%;
+}
+
+.subCategoriesThumb figure img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.subCategoriesThumb figcaption {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(transparent, #0F0F0F);
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  transition: all ease .2s;
+}
+
+.subCategoriesThumb:hover figcaption {
+  padding: 20px 10px;
 }
 
 @keyframes rotate {

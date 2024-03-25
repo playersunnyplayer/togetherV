@@ -1,9 +1,3 @@
-.checkoutHeader {
-    box-shadow: 0 0 10px rgb(231 15 20 / 27%);
-    background: rgb(254 243 243);
-    margin: 0 0 40px;
-}
-
 .leftLoginWrap {
     display: flex;
 }
