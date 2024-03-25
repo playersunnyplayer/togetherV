@@ -14,40 +14,6 @@
     width: 20%;
 }
 
-.subCategoriesThumb {
-    margin: 0 0 10px;
-    padding: 0 6px;
-    width: 25%;
-}
-
-.subCategoriesThumb figure {
-    position: relative;
-}
-
-.subCategoriesThumb figure img {
-    position: relative;
-    z-index: 0;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.subCategoriesThumb figcaption {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    background: linear-gradient(transparent, #0F0F0F);
-    width: 100%;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
-    color: #fff;
-    padding: 10px;
-    transition: all ease .2s;
-}
-
-.subCategoriesThumb:hover figcaption {
-    padding: 20px 10px;
-}
-
 .loveWiget {
     margin: 0 0 50px;
     position: relative;
