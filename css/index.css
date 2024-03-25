@@ -1,43 +1,51 @@
 .homeBannerSec {
     display: flex;
 }
+
 .bannerContent {
     width: 50%;
     padding: 0 180px 0 0;
 }
+
 .bannerHeading {
     font-size: 38px;
     margin: 50px 0 30px;
     line-height: 44px;
 }
+
 .bannerContent p {}
+
 .mainBanner {
     width: 55%;
     position: relative;
     margin: 20px 0 0;
 }
+
 .mainBanner .dottes {
     position: absolute;
-    right: -60px;
+    right: -20px;
     bottom: -34px;
 }
+
 .plane-sketch {
     position: absolute;
     transform: translate(-86%, 43%);
 }
+
 .homeBanner {}
 
 .homeBanner .owl-item {}
 
-.homeBanner img {
-}
+.homeBanner img {}
 
 .homeCategorySec {
     background: rgb(231 15 20 / 10%);
     margin: -50px 0 0;
     padding: 80px 0 0;
 }
+
 .homeCategories {}
+
 .homeCategories a {
     background: #fff;
     display: block;
@@ -48,7 +56,15 @@
     text-align: center;
     cursor: pointer;
 }
-.homeCategories figure {height: 100px;width: 100px;margin: 0 auto 0px;position: relative;top: -17px;}
+
+.homeCategories figure {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 0px;
+    position: relative;
+    top: -17px;
+}
+
 .homeCategories figcaption {
     white-space: nowrap;
     overflow: hidden;
@@ -68,6 +84,7 @@
     justify-content: space-between;
     margin: 0 0 60px;
 }
+
 .giftFinderSec .heading {
     position: relative;
     background: rgb(231 15 20 / 20%);
@@ -79,6 +96,7 @@
     font-weight: 700;
     border-radius: 8px 0 0 8px;
 }
+
 .giftFinderSec .heading:after {
     content: "";
     top: 0;
@@ -89,6 +107,7 @@
     background: rgb(252 213 211);
     transform: skewX(-24deg);
 }
+
 .giftFinderSec .feildWrap {
     width: calc(100% - 180px);
     justify-content: space-between;
@@ -96,6 +115,77 @@
     padding: 0 20px 0 60px;
     gap: 20px;
 }
+
 .giftFinderSec .inputGroup {
     gap: 20px
+}
+
+.worldLeadingSec {
+    background: url(../images/world-leading-bg.png) no-repeat;
+    background-size: cover;
+    padding: 200px 0 100px;
+    margin: -100px 0 50px;
+}
+
+.numThumbWrap {
+    margin: 0 0 0 auto;
+    box-shadow: 0 0 30px rgb(231 15 20 / 12%);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(255 255 255 / 30%);
+}
+
+.numThumb {
+    text-align: center;
+    padding: 50px 30px;
+    width: 20vw;
+}
+
+.numThumb figure {
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+.numThumb figcaption {}
+
+.bo_r {
+    border-right: solid 1px rgb(231 15 20 / 12%);
+}
+
+.bo_b {
+    border-bottom: solid 1px rgb(231 15 20 / 12%);
+}
+
+.subCategoriesSec.withCurve {
+    position: relative;
+    padding: 70px 0 0;
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+
+.subCategoriesSec .best-curve {
+    position: absolute;
+    top: 30px;
+    transform: scale(1.1);
+}
+
+.discountedProductSec {
+    padding: 80px 0 60px;
+}
+
+.discountedInnerWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discountedInnerSec {
+    width: 49%;
+}
+
+.subCategoriesSec {
+    margin: 80px 0 0;
+}
+
+.playStorePromotionSec {
+    margin: 100px 0 0;
 }
