@@ -146,8 +146,6 @@
     margin: 0 0 20px;
 }
 
-.numThumb figcaption {}
-
 .bo_r {
     border-right: solid 1px rgb(231 15 20 / 12%);
 }
@@ -161,6 +159,14 @@
     padding: 70px 0 0;
     margin: 20px 0 0;
     overflow: hidden;
+}
+
+.subCategoriesThumb figure {
+    height: 100%;
+}
+
+.subCategoriesThumb figure img {
+    height: 100%;
 }
 
 .subCategoriesSec .best-curve {
@@ -188,4 +194,87 @@
 
 .playStorePromotionSec {
     margin: 100px 0 0;
+}
+
+@media only screen and (max-width: 980px) {
+    .giftFinderSec {
+        flex-direction: column;
+    }
+
+    .giftFinderSec .heading {
+        width: 100%;
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+        padding: 10px;
+    }
+
+    .giftFinderSec .feildWrap {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .giftFinderSec .heading:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .homeBannerSec {
+        flex-direction: column;
+    }
+
+    .bannerContent,
+    .mainBanner {
+        padding: 0;
+        width: 100%;
+    }
+
+    .giftFinderSec .feildWrap {
+        flex-direction: column;
+    }
+
+    .subCategoriesThumb {
+        width: 100%;
+    }
+
+    .worldLeadingSec {
+        padding: 20px 0;
+        margin: 0;
+        background: no-repeat;
+    }
+
+    .numThumbWrap {
+        margin: 30px 0 0;
+        width: 100%;
+    }
+
+    .numThumb {
+        width: 50%;
+    }
+
+    .subCategoriesSec.withCurve {
+        padding: 10px 0 0;
+    }
+
+    .discountedProductSec {
+        padding: 30px 0 0px;
+    }
+
+    .discountedInnerWrap {
+        flex-direction: column
+    }
+
+    .discountedInnerSec {
+        width: 100%;
+    }
+
+    .playStorePromotionSec {
+        margin: 50px 0 0;
+    }
+
+    .bannerHeading {
+        margin: 20px 0 20px;
+        font-size: 28px;
+        line-height: 36px;
+    }
 }

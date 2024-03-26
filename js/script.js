@@ -32,16 +32,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// sticky menu scrollspy
-$('body').scrollspy({ target: '#navbar-example2' })
-var bottom = $('.stickyMenuSec').offset().top - 1500;
-$(window).scroll(function () {
-
-  if ($(this).scrollTop() > bottom) {
-    $('.stickyMenuSec').addClass('fixed');
-  }
-  else {
-    $('.stickyMenuSec').removeClass('fixed');
-  }
-});

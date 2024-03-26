@@ -840,6 +840,10 @@ footer h3 {
   margin: 0 0 4px;
 }
 
+.productThumbContentArea .para {
+  margin: 10px 0 0
+}
+
 .productThumbContentArea .priceSec {
   border-top: solid 1px #eee;
   margin: 20px -20px 0;
@@ -859,6 +863,13 @@ footer h3 {
 .productThumb:hover .arrow {
   background: #ddd;
   right: 5px;
+}
+
+.para {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .locationSec {
@@ -1272,43 +1283,43 @@ input[type="checkbox"] {
 }
 
 .filterSecInside .btn-primary {
-    width: 100%;
-    margin: 20px 0 0;
+  width: 100%;
+  margin: 20px 0 0;
 }
 
 .totalFinalPrice {
-    background: rgb(238 238 238);
-    padding: 10px 5px;
-    margin: 10px -20px 0;
-    font-size: 16px;
+  background: rgb(238 238 238);
+  padding: 10px 5px;
+  margin: 10px -20px 0;
+  font-size: 16px;
 }
 
 .modal.fade.right .modal-dialog {
-    position: absolute;
-    /* right: 0; */
-    margin: 0;
-    width: 100%;
-    transform: translate3d(0%, 0, 0);
+  position: absolute;
+  /* right: 0; */
+  margin: 0;
+  width: 100%;
+  transform: translate3d(0%, 0, 0);
 }
 
 .modal.fade.right.fade .modal-dialog {
-    right: 0;
-    transition: opacity 0.3s linear, right 0.3s ease-out;
+  right: 0;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
 }
 
 .modal.fade.right .modal-content {
-    height: 100%;
+  height: 100%;
 }
 
 .modal.fade.right .modal-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .smallThumbnailsWrap {
-    max-height: 380px;
-    overflow-y: auto;
+  max-height: 380px;
+  overflow-y: auto;
 }
 
 .owl-carousel {
@@ -1321,8 +1332,6 @@ input[type="checkbox"] {
   margin: 0 0 40px;
 }
 
-
-
 .subCategoriesThumb {
   margin: 0 0 10px;
   padding: 0 6px;
@@ -1331,14 +1340,12 @@ input[type="checkbox"] {
 
 .subCategoriesThumb figure {
   position: relative;
-  height: 100%;
 }
 
 .subCategoriesThumb figure img {
   position: relative;
   z-index: 0;
   width: 100%;
-  height: 100%;
   border-radius: 10px;
 }
 
@@ -1357,6 +1364,26 @@ input[type="checkbox"] {
 
 .subCategoriesThumb:hover figcaption {
   padding: 20px 10px;
+}
+
+.multiColumnWrap-80-20 {
+  display: flex;
+}
+
+.subCategoriesSec .twoBigColumn {
+  display: flex;
+}
+
+.subCategoriesSec .fourSmallColumns {
+  width: 50%;
+}
+
+.multiColumnWrap-80-20 .twoBigColumn {
+  width: 80%;
+}
+
+.multiColumnWrap-80-20 .fourSmallColumns {
+  width: 40%;
 }
 
 @keyframes rotate {
@@ -1378,7 +1405,7 @@ input[type="checkbox"] {
 
 @media screen and (max-width: 1200px) {
   .container {
-    padding: 0 30px;
+    padding: 0 14px;
   }
 }
 
@@ -1396,9 +1423,9 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 767px) {
   .logo {
-    margin: 0 
+    margin: 0
   }
-  
+
   .header-search {
     margin: 0 0 0 auto;
     background: none;
@@ -1484,7 +1511,7 @@ input[type="checkbox"] {
   }
 
   footer {
-    padding: 0px 0 130px;
+    padding: 0px 0 10px;
   }
 
   #goToTop {
@@ -1539,6 +1566,15 @@ input[type="checkbox"] {
   }
 
   .smallThumbnails {
+    width: 100%;
+  }
+
+  .multiColumnWrap-80-20 {
+    flex-direction: column;
+  }
+
+  .multiColumnWrap-80-20 .twoBigColumn,
+  .multiColumnWrap-80-20 .fourSmallColumns {
     width: 100%;
   }
 }
