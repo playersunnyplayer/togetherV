@@ -1003,6 +1003,7 @@ input[type="checkbox"] {
 
 .bannerSec {
   margin: 40px 0;
+  width: 100%;
 }
 
 .bannerSec img {
@@ -1188,6 +1189,10 @@ input[type="checkbox"] {
   height: 100%;
   margin: 0 0 0 auto;
   float: right;
+}
+
+.featuredSecFour {
+  width: 100%
 }
 
 .fourColumnLayoutSec {
