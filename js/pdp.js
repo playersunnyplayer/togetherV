@@ -89,6 +89,18 @@ function closePersonalizationDetailsSection() {
     $("#personalizationDetailsSection").slideUp("slow");
 }
 
+$(window).scroll(function(e){ 
+    var $el = $('.leftImgWrap'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+
+    if ($(this).scrollTop() > 165 && !isPositionFixed){ 
+        $el.addClass('stickyLeftImg')
+    }
+    if ($(this).scrollTop() < 907 && isPositionFixed){
+        $el.removeClass('stickyLeftImg');
+    } 
+});
+
 $(".leftImgThumbs img").click(function() {
     let imageName = $(this).attr("data-img");
     $("#mainImg").attr("src", imageName);

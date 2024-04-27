@@ -47,7 +47,7 @@
 .leftImgThumbs,
 .mainImage {
     display: flex;
-    max-height: 380px;
+    max-height: 500px;
     align-items: center;
     justify-content: center
 }
@@ -782,6 +782,15 @@
     text-align: center;
 }
 
+.innerContainer {
+    padding: 0 10px;
+}
+
+.stickyLeftImg {
+    position: sticky;
+    top: 0px;
+}
+
 @media only screen and (max-width: 1024px) {
     .pinFormAreaSec .inputGroup {
         width: 100%;
@@ -820,7 +829,9 @@
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (max-width: 767px) {
-
+    .stickyLeftImg {
+        position: static;
+    }
     .leftImgWrap,
     .rightPDPcontent {
         width: 100%;
