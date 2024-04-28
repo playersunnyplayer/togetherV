@@ -89,16 +89,17 @@ function closePersonalizationDetailsSection() {
     $("#personalizationDetailsSection").slideUp("slow");
 }
 
-$(window).scroll(function(e){ 
-    var $el = $('.leftImgWrap'); 
-    var isPositionFixed = ($el.css('position') == 'fixed');
+$(window).scroll(function(){
+    let leftscroll = $(window).scrollTop();
+    let descriptionContainerStart = $(".descriptionContainerJs").offset().top;
+    let footerStart = $(".blogSecJs").offset().top;
 
-    if ($(this).scrollTop() > 165 && !isPositionFixed){ 
-        $el.addClass('stickyLeftImg')
+    if (leftscroll >= descriptionContainerStart && leftscroll < footerStart) {
+        $(".leftImgThumbs").addClass("stickyLeftImg");
     }
-    if ($(this).scrollTop() < 907 && isPositionFixed){
-        $el.removeClass('stickyLeftImg');
-    } 
+    else {
+        $(".leftImgThumbs").removeClass("stickyLeftImg");
+    }
 });
 
 $(".leftImgThumbs img").click(function() {
