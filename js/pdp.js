@@ -106,6 +106,9 @@ $(".leftImgThumbs img").click(function() {
     let imageName = $(this).attr("data-img");
     $("#mainImg").attr("src", imageName);
     $("#fancyboxlink").attr("href", imageName);
+    $('html, body').animate({
+        scrollTop: $(".leftImgRow").offset().top
+    }, 200);
 })
 
 $(function(){
