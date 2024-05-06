@@ -103,6 +103,10 @@ input[type=number] {
   display: none;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 .header-search {
   background: #F5F5F5;
   position: relative;
@@ -173,6 +177,10 @@ h6 {
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
+}
+
+.greenText {
+  color: #44aa00;
 }
 
 .show_767 {
