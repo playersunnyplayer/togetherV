@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/short_icon.png">
+	<title>togetherv</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css"
+		media="all" />
+	<link rel="stylesheet" href="css/mega-menu-left.css" />
+	<link rel="stylesheet" href="css/mega-menu-desktop.css" />
+	<link rel="stylesheet" href="css/input.css" />
+
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/myprofile.css" />
+</head>
+
+<body>
+	<!-- header start -->
+	<header class="header">
+		<!-- mobile menu trigger -->
+		<div class="mobile-menu-trigger">
+			<span></span>
+		</div>
+		<div class="menu-overlay"></div>
+		<nav class="menu">
+			<div class="mobile-menu-head">
+				<div class="go-back"><i class="fa fa-angle-left"></i></div>
+				<div class="current-menu-title"></div>
+				<div class="mobile-menu-close">&times;</div>
+			</div>
+			<ul class="menu-main">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">New <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://th.bing.com/th/id/R.ce8de1adaa3fcc169f0d97c436b8274b?rik=6W1qX6Qp03lNWg&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1504633273314-6a929fcd7090%3fixlib%3drb-0.3.5%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax%26ixid%3deyJhcHBfaWQiOjEyMDd9%26s%3de8e0ff2cce3792a276fa84086113a17c&ehk=chx16tzqSRzpfA6BYM4FNaZZ%2fMJwEtxaqHPW1FZb9FI%3d&risl=&pid=ImgRaw&r=0"
+									alt="Fashion" />
+								<h4 class="title">Fashion</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://img.freepik.com/free-photo/male-technician-repairing-computer-motherboard-wooden-desk_23-2147923493.jpg?w=740&t=st=1671765056~exp=1671765656~hmac=4c8dffc9558819b4c21b126aaa394150f48adc3be9c8004c0b65d0420709ec00"
+									alt="Electronics" />
+								<h4 class="title">Electronics</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://images.unsplash.com/photo-1571380401583-72ca84994796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+									alt="Mobiles" />
+								<h4 class="title">Mobiles</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://images.unsplash.com/photo-1578643463396-0997cb5328c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+									alt="Appliances" />
+								<h4 class="title">Appliances</h4>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Shop <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+						<div class="list-item">
+							<h4 class="title">Men's Fashion</h4>
+							<ul>
+								<li><a href="#">T-Shirts</a></li>
+								<li><a href="#">Jeans</a></li>
+								<li><a href="#">Suit</a></li>
+								<li><a href="#">Kurta</a></li>
+								<li><a href="#">Watch</a></li>
+							</ul>
+							<h4 class="title">Beauty</h4>
+							<ul>
+								<li><a href="#">Moisturizer</a></li>
+								<li><a href="#">Face powder</a></li>
+								<li><a href="#">Lipstick</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<h4 class="title">Women's Fashion</h4>
+							<ul>
+								<li><a href="#">Sarees</a></li>
+								<li><a href="#">Sandals</a></li>
+								<li><a href="#">Watchs</a></li>
+								<li><a href="#">Shoes</a></li>
+							</ul>
+							<h4 class="title">Furniture</h4>
+							<ul>
+								<li><a href="#">Chairs</a></li>
+								<li><a href="#">Tables</a></li>
+								<li><a href="#">Doors</a></li>
+								<li><a href="#">Bed</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<h4 class="title">Home, Kitchen</h4>
+							<ul>
+								<li><a href="#">Kettle</a></li>
+								<li><a href="#">Toaster</a></li>
+								<li><a href="#">Dishwasher</a></li>
+								<li><a href="#">Microwave oven</a></li>
+								<li><a href="#">Pitcher</a></li>
+								<li><a href="#">Blender</a></li>
+								<li><a href="#">Colander</a></li>
+								<li><a href="#">Tureen</a></li>
+								<li><a href="#">Cookware</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<img src="https://images.unsplash.com/photo-1549497538-303791108f95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80"
+								alt="Chair" />
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Blog <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu single-column-menu">
+						<ul>
+							<li><a href="#">Standard Layout</a></li>
+							<li><a href="#">Grid Layout</a></li>
+							<li><a href="#">single Post Layout</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Pages <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu single-column-menu">
+						<ul>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+							<li><a href="#">Faq</a></li>
+							<li><a href="#">404 Page</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="container">
+			<div class="row v-center">
+				<a href="#" class="logo">
+					<img src="images/tgv_logo.png" class="bigLogo" alt="">
+					<img src="images/small-logo.png" class="smallLogo" alt="">
+				</a>
+
+				<div class="header-search">
+					<img src="images/search-icon.svg" alt="">
+				</div>
+
+				<div class="header-item item-right">
+					<a href="#"><img src="images/location-icon.svg" alt=""></a>
+					<a href="#" data-toggle="modal" data-target="#cartPopup"><img src="images/cart-icon.svg" alt=""></a>
+					<a href="#"><img src="images/user-icon.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="categoryRowHeader">
+			<div class="container">
+				<div class="main-wrapper">
+					<nav class="navbar">
+						<div class="navbar-collapse">
+							<ul class="navbar-nav">
+								<li>
+									<a href="#">home</a>
+								</li>
+								<li>
+									<a href="#" class="menu-link">
+										electronics
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">cell phones & accessories</a></li>
+												<li><a href="#">smart tv</a></li>
+												<li><a href="#">computer & laptops</a></li>
+												<li><a href="#">digital cameras</a></li>
+												<li><a href="#">video games & accessories</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">iphones</a></li>
+												<li><a href="#">speakers</a></li>
+												<li><a href="#">samsung devices</a></li>
+												<li><a href="#">audio & headphones</a></li>
+												<li><a href="#">vehicles electronics & GPS</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>all essential devices and tools for home</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										fashion
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">men's clothing</a></li>
+												<li><a href="#">women's clothing</a></li>
+												<li><a href="#">men's shoes</a></li>
+												<li><a href="#">women's shoes</a></li>
+												<li><a href="#">clothing deals</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">fine jewelry</a></li>
+												<li><a href="#">fashion jewelry</a></li>
+												<li><a href="#">men's accessories</a></li>
+												<li><a href="#">handbags & bags</a></li>
+												<li><a href="#">kid's clothing</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>stylish and modern fashion clothing</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										health & beauty
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">makeup</a></li>
+												<li><a href="#">health care</a></li>
+												<li><a href="#">fragrance</a></li>
+												<li><a href="#">hair care & stylings</a></li>
+												<li><a href="#">manicure & pedicure</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">skin care</a></li>
+												<li><a href="#">vitamins</a></li>
+												<li><a href="#">vision care</a></li>
+												<li><a href="#">oral care</a></li>
+												<li><a href="#">shaving & hair removal</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>the latest product is here</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										sports
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">cycling</a></li>
+												<li><a href="#">outdoor sports</a></li>
+												<li><a href="#">hunting</a></li>
+												<li><a href="#">fishing</a></li>
+												<li><a href="#">fitness & yoga</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">tennis</a></li>
+												<li><a href="#">swimming</a></li>
+												<li><a href="#">winter sports</a></li>
+												<li><a href="#">fitness technology</a></li>
+												<li><a href="#">sports wear</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>gear up for sports & adventures</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#">deals</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<div class="container">
+		<div class="row">
+
+			<div class="breadcrumbRow">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">My Profile</li>
+				</ol>
+			</div>
+			<div class="card-body veritcalMenu">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="myprofile-tab" data-toggle="tab" href="#myprofile" role="tab"
+							aria-controls="myprofile" aria-selected="true">My Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="booking-tab" data-toggle="tab" href="#booking" role="tab"
+							aria-controls="booking" aria-selected="false">Booking</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="wishlist-tab" data-toggle="tab" href="#wishlist" role="tab"
+							aria-controls="wishlist" aria-selected="false">Wishlist</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="wallet-tab" data-toggle="tab" href="#wallet" role="tab"
+							aria-controls="wallet" aria-selected="false">Wallet</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="myprofile" role="tabpanel"
+						aria-labelledby="myprofile-tab">
+						<div class="contentWrap">
+							<div class="contentLeft">
+								<h4>Personal Information</h4>
+								<div class="form-group">
+									<figure>
+										<img src="images/user-icon.svg" alt="">
+									</figure>
+									<div class="w-100">
+										<label for="exampleInputPassword1">Name</label>
+										<input type="text" class="form-control" name="name" id="name"
+											placeholder="Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<figure>
+										<img src="images/email-icon-black.svg" alt="">
+									</figure>
+									<div class="w-100">
+										<label for="exampleInputPassword1">Email</label>
+										<input type="email" class="form-control" name="email" id="email"
+											placeholder="email">
+									</div>
+								</div>
+								<div class="form-group">
+									<figure>
+										<img src="images/phone-icon-black.svg" alt="">
+									</figure>
+									<div class="w-100">
+										<label for="exampleInputPassword1">Phone</label>
+										<input type="number" class="form-control" name="phone" id="phone"
+											placeholder="phone">
+									</div>
+								</div>
+								<div class="form-group mt-4">
+									<button class="btn btn-outline-secondary mr-3">Cancel</button>
+									<button class="btn btn-primary">Update</button>
+								</div>
+							</div>
+							<div class="rightBlocks">
+								<div class="smallThumbnails">
+									<figure>
+										<img src="images/cart-icon.svg" alt="">
+									</figure>
+									<div>
+										<p>My Orders</p>
+										<span>Track, return, or buy things again</span>
+									</div>
+								</div>
+								<div class="smallThumbnails">
+									<figure>
+										<img src="images/card-icon.png" alt="">
+									</figure>
+									<div>
+										<p>Credit up to 5 Lakhs</p>
+										<span>Shop Now and Split your Payments with 0% Interest</span>
+									</div>
+								</div>
+								<div class="smallThumbnails">
+									<figure>
+										<img src="images/address-book-icon.png" alt="">
+									</figure>
+									<div>
+										<p>Address Book</p>
+										<span>Manage Shipping and Billing Addresses</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="booking" role="tabpanel" aria-labelledby="booking-tab">
+
+						<div class="row mb-4">
+							<div class="col-sm-6 selectSec">
+								<select name="" class="selectBank" id="">
+									<option value="1">Sort By Date</option>
+									<option value="1">1</option>
+									<option value="1">1</option>
+									<option value="1">1</option>
+								</select>
+								<select name="" class="selectBank" id="">
+									<option value="1">Sort By Status</option>
+									<option value="1">1</option>
+									<option value="1">1</option>
+									<option value="1">1</option>
+								</select>
+							</div>
+
+							<div class="col-sm-6 searchBox">
+								<input type="text" class="form-control" name="name" id="name" placeholder="Search by product name">
+								<button class="btn btn-primary">Search</button>
+							</div>
+						</div>
+
+						<div class="stickyHead">
+							<div class="col-sm-6">Order No.</div>
+							<div class="col-sm-4">Order Date</div>
+							<div class="col-sm-2">Amount</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<button class="collapseheading btn btn-link btn-block text-left" type="button"
+									data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+									aria-controls="collapseTwo">
+									<div class="orderRowHeading">
+										<div class="orderNoHeading col-sm-6">
+											<div class="itemNum">
+												<div class="num">1</div>
+												items
+											</div>
+											23456788
+										</div>
+										<div class="orderDateHeading col-sm-4">
+											7 Mar 2025
+										</div>
+										<div class="orderAmountHeading col-sm-2">
+											₹ 2573
+										</div>
+									</div>
+								</button>
+							</div>
+
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+								data-parent="#accordionExample">
+								<div class="card-body">
+
+									<div class="smallThumbnailsNew">
+										<div class="leftArea">
+											<figure>
+												<img src="images/sub-img-4.jpg" alt="">
+											</figure>
+											<div class="">
+												<p class="name">Flower Ring Bouquet</p>
+												<p>Qty: 10</p>
+												<p>Discount: ₹ 25</p>
+												<div class="badge badge-success">Confirmed</div>
+												<p>Order confirmed on 21 Feb 2023</p>
+											</div>
+										</div>
+										<div class="totalRight">
+											<p><strong>Total Amount ₹ 2523</strong></p>
+											<p>COD charge ₹ 25, Shipping charge ₹ 25</p>
+										</div>
+									</div>
+
+									<div class="trackingStatusSec">
+										<div class="trackingThumb">
+											<figure>
+												<img src="images/axis-icon.png" alt="">
+											</figure>
+											<div class="tick active">
+												<div class="progress">
+													<div class="progress-bar" style="width: 100%;"></div>
+												</div>
+											</div>
+
+											<p><strong>Processing</strong></p>
+											<p>Apr 4 2023, 11.30 AM</p>
+										</div>
+										<div class="trackingThumb">
+											<figure>
+												<img src="images/axis-icon.png" alt="">
+											</figure>
+											<div class="tick active">
+												<div class="progress">
+													<div class="progress-bar" style="width: 50%;"></div>
+												</div>
+											</div>
+
+											<p><strong>Processing</strong></p>
+											<p>Apr 4 2023, 11.30 AM</p>
+										</div>
+										<div class="trackingThumb">
+											<figure>
+												<img src="images/axis-icon.png" alt="">
+											</figure>
+											<div class="tick">
+												<div class="progress">
+													<div class="progress-bar" style="width: 0;"></div>
+												</div>
+											</div>
+
+											<p><strong>Processing</strong></p>
+											<p>Apr 4 2023, 11.30 AM</p>
+										</div>
+										<div class="trackingThumb">
+											<figure>
+												<img src="images/axis-icon.png" alt="">
+											</figure>
+											<div class="tick">
+												<div class="progress">
+													<div class="progress-bar" style="width: 0;"></div>
+												</div>
+											</div>
+
+											<p><strong>Processing</strong></p>
+											<p>Apr 4 2023, 11.30 AM</p>
+										</div>
+										<div class="trackingThumb">
+											<figure>
+												<img src="images/axis-icon.png" alt="">
+											</figure>
+											<div class="tick">
+												<div class="progress">
+													<div class="progress-bar" style="width: 0;"></div>
+												</div>
+											</div>
+
+											<p><strong>Processing</strong></p>
+											<p>Apr 4 2023, 11.30 AM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="wishlist" role="tabpanel" aria-labelledby="wishlist-tab">
+						<h4>Your Wishlist</h4>
+
+						<div class="wishlistThumbWrap">
+							<div class="smallThumbnails wishlistThumb">
+								<figure>
+									<img src="images/sub-img-4.jpg" alt="">
+								</figure>
+								<div>
+									<p class="name">Flower Ring Bouquet</p>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+									<div class="ratingHeader">
+										<span class="starsGroup">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											4.5
+										</span>
+									</div>
+									<div class="orderAmountHeading">₹ 2573</div>
+									<button class="btn btn-primary">Confirm</button>
+									<img src="images/close-icon.svg" class="close" alt="">
+								</div>
+							</div>
+
+							<div class="smallThumbnails wishlistThumb">
+								<figure>
+									<img src="images/sub-img-4.jpg" alt="">
+								</figure>
+								<div>
+									<p class="name">Flower Ring Bouquet</p>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+									<div class="ratingHeader">
+										<span class="starsGroup">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											4.5
+										</span>
+									</div>
+									<div class="orderAmountHeading">₹ 2573</div>
+									<button class="btn btn-primary">Confirm</button>
+									<img src="images/close-icon.svg" class="close" alt="">
+								</div>
+							</div>
+
+							<div class="smallThumbnails wishlistThumb">
+								<figure>
+									<img src="images/sub-img-4.jpg" alt="">
+								</figure>
+								<div>
+									<p class="name">Flower Ring Bouquet</p>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+									<div class="ratingHeader">
+										<span class="starsGroup">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											4.5
+										</span>
+									</div>
+									<div class="orderAmountHeading">₹ 2573</div>
+									<button class="btn btn-primary">Confirm</button>
+									<img src="images/close-icon.svg" class="close" alt="">
+								</div>
+							</div>
+
+							<div class="smallThumbnails wishlistThumb">
+								<figure>
+									<img src="images/sub-img-4.jpg" alt="">
+								</figure>
+								<div>
+									<p class="name">Flower Ring Bouquet</p>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+									<div class="ratingHeader">
+										<span class="starsGroup">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											4.5
+										</span>
+									</div>
+									<div class="orderAmountHeading">₹ 2573</div>
+									<button class="btn btn-primary">Confirm</button>
+									<img src="images/close-icon.svg" class="close" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="wallet" role="tabpanel" aria-labelledby="wallet-tab">
+						<h4>Your Wallet</h4>
+
+						<div class="walletThumbWrap">
+							<div class="walletThumb">
+								<p class="name">TogetherV Cash</p>
+								<div class="orderAmountHeading">₹ 2573</div>
+								<p>Cash you have earned with TogetherV</p>
+							</div>
+							<div class="walletThumb">
+								<p class="name">Referral Cash</p>
+								<div class="orderAmountHeading">₹ 2573</div>
+								<p>Cash you have earned with referral with your friends</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

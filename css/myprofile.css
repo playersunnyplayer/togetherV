@@ -1,0 +1,588 @@
+.leftLoginWrap {
+    display: flex;
+}
+
+.leftLoginWrap input {
+    margin: 0 0 10px
+}
+
+.leftLoginWrap .rightArea {
+    padding: 0 0 0 50px;
+    margin-left: 50px;
+    border-left: solid 1px #ECECEC;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.leftLoginWrap .or {
+    position: absolute;
+    left: -21px;
+    top: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #ddd;
+}
+
+.leftLoginWrap .rightArea button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftLoginWrap .rightArea i {
+    font-size: 20px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.accordion .collapse {
+    padding: 10px 0 0;
+    transition: all ease .2s;
+}
+
+.accordionNum {
+    background: rgb(254 243 243) !important;
+}
+
+.addressCard {
+    padding: 20px;
+    margin: 30px 0 20px !important;
+}
+
+.addressCard h4 {
+    margin: 0 0 20px
+}
+
+.radioWrap {
+    margin: 0 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.addNewAddr {
+    margin: 30px 0 30px;
+}
+
+.addNewAddr:hover {
+    background: rgb(254 243 243);
+    padding-left: 20px;
+}
+
+.accordion .card-body {
+    padding: 0 24px 20px;
+}
+
+.addressCompleteWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+address {
+    border: solid 1px #ECECEC;
+    padding: 20px;
+    width: 49%;
+}
+
+address h4 {
+    position: relative;
+    color: #000;
+    padding: 0 80px 0 0;
+}
+
+address .rightWrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap: 20px;
+}
+
+address .rightWrap button {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+}
+
+address .rightWrap button img {
+    height: 20px;
+}
+
+.filterSecWrap {
+    margin: 0 0 auto 0;
+    padding: 0;
+}
+
+.accordion .card {
+    margin: 0 0 20px;
+}
+
+.cartContentArea {
+    padding: 0
+}
+
+.smileRow {
+    padding: 20px;
+}
+
+.contentWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentLeft {
+    margin: 0 0 30px;
+    width: 50%;
+}
+
+.acceptThumbSec {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+}
+
+.acceptThumb {
+    text-align: center;
+}
+
+.acceptThumb figure {
+    height: 50px;
+    width: 50px;
+    border: solid 1px #ECECEC;
+    #ECECEC: ;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 auto 5px;
+    overflow: hidden;
+}
+
+.acceptThumb figure img {
+    min-width: 20px;
+}
+
+
+.btn.acceptThumb {
+    height: auto;
+    padding: 0;
+    width: 46%;
+    padding: 20px;
+    position: relative;
+    border: solid 1px #ECECEC;
+}
+
+.btn.acceptThumb figure {
+    height: auto;
+    width: 46%;
+    max-width: 70px;
+    padding: 20px;
+}
+
+.btn.acceptThumb.selected {
+    position: relative;
+    border: solid 1px #161616;
+}
+
+.btn.acceptThumb.selected:after {
+    content: "\2713";
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.veritcalMenu {
+    display: flex;
+    width: 100%;
+}
+
+.veritcalMenu .nav {
+    border: 0;
+    flex-direction: column;
+    width: 20%;
+    background: #f9f9f9;
+}
+
+.veritcalMenu ::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+.veritcalMenu .tab-pane {
+    padding: 0 0 0 30px;
+}
+
+.veritcalMenu .tab-pane .contentWrap {
+    justify-content: space-between;
+}
+
+.veritcalMenu .nav-item {
+    margin: 0;
+}
+
+.veritcalMenu .nav-link {
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px #ECECEC;
+}
+
+.veritcalMenu .nav-link.active {
+    border-left: solid 5px #000;
+}
+
+.veritcalMenu .tab-content {
+    width: 80%;
+    padding: 0;
+}
+
+.selectBank {
+    padding: 10px;
+    width: 40%;
+    margin: 0px 0 0;
+}
+
+.subThumb {
+    width: 90%;
+    margin: 0 0 10px auto;
+}
+
+.smallThumbnails {
+    padding: 20px;
+}
+
+.smallThumbnails figure {
+    height: 50px;
+    width: 50px;
+    border: solid 1px rgb(231 14 20 / 16%);
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.smallThumbnails figure img {
+    height: 25px;
+}
+
+
+
+
+
+.form-group {
+    display: flex;
+    align-items: flex-end;
+}
+.form-group figure {
+    height: 50px;
+    min-width: 50px;
+    border: solid 1px #ECECEC;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 20px 0 0;
+    overflow: hidden;
+}
+
+.rightBlocks {
+    width: 40%;
+}
+
+.rightBlocks .smallThumbnails p {
+    font-weight: 800;
+}
+
+.rightBlocks .smallThumbnails span {
+    font-weight: 200;
+}
+
+.selectSec {
+    display: flex;
+    gap: 20px;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.searchBox input {
+    border-radius: 5px 0 0 5px;
+}
+
+.searchBox button {
+    border-radius: 0 5px 5px 0;
+}
+
+.stickyHead {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.orderRowHeading {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.orderNoHeading {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #e70e14;
+    font-weight: 700;
+}
+
+.itemNum {
+    display: block;
+    text-align: center;
+    width: 50px;
+    font-size: 11px;
+    background: #fff5f4;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 0 0 0 -16px;
+    color: initial;
+    font-weight: 400;
+    border: solid 1px rgb(231 14 20 / 15%);
+}
+
+.itemNum .num {background: #e70e14;font-size: 17px;color: #fff;}
+
+.orderAmountHeading {
+    padding: 0 0 0 36px;
+    color: #44aa00;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.smallThumbnailsNew {
+    display: flex;
+    width: 100%;
+    align-items: end;
+}
+
+.smallThumbnailsNew .leftArea {
+    display: flex;
+    gap: 20px;
+}
+
+.smallThumbnailsNew figure {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.collapseheading {
+    background: #f9f9f9;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.totalRight {
+    margin: 0 0 0 auto;
+    text-align: right;
+}
+
+.trackingStatusSec {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 20px;
+    position: relative;
+}
+.trackingThumb {
+    text-align: center;
+    position: relative;
+    width: 20%;
+}
+.trackingThumb .tick {position: relative;}
+.trackingThumb .tick::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: rgb(198 198 198);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.trackingThumb .tick.active::after {
+    background: #44aa00;
+}
+.trackingThumb figure {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.progress {
+    height: 6px;
+    width: 100%;
+    border-radius: 0;
+    margin: 20px 0;
+    top: 6px;
+    position: relative;
+}
+
+.progress-bar {
+    height:20px;
+    background: #4a0;
+}
+
+.wishlistThumbWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.wishlistThumb {
+    width: 49%;
+}
+.wishlistThumb p {
+    margin: 0 0 5px;
+}
+
+.wishlistThumb .ratingHeader {
+    margin: 10px 0
+}
+
+.wishlistThumb .orderAmountHeading {
+    padding: 0 0 10px;
+}
+
+.walletThumbWrap {
+    display: flex;
+    gap: 20px;
+}
+.walletThumb {
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.walletThumb::after {
+    content: "";
+    height: 200px;
+    width: 220px;
+    background: rgb(231 15 20 / 5%);
+    position: absolute;
+    top: -110px;
+    right: -40px;
+    border-radius: 200px;
+    z-index: -1;
+}
+.walletThumb .name {margin: 0 0 20px;}
+.walletThumb .orderAmountHeading {
+    padding: 0 0 20px;
+}
+
+@media screen and (max-width: 980px) {
+
+    .cartContentArea,
+    .filterSecWrap {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leftLoginWrap {
+        flex-direction: column;
+    }
+
+    .leftLoginWrap .rightArea {
+        margin: 40px 0 0;
+        border-left: 0;
+        border-top: solid 1px #ECECEC;
+        padding: 40px 0 0;
+    }
+
+    .leftLoginWrap .or {
+        left: 50%;
+        top: -21px;
+        transform: translateX(-50%);
+    }
+
+    .btn.acceptThumb {
+        width: 100%;
+    }
+
+    .card-header h2 {
+        margin: 0 !important;
+    }
+    .addressCard {
+        padding: 0;
+        border: 0;
+    }
+    .veritcalMenu {
+        flex-direction: column;
+    }
+    .veritcalMenu .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-y: auto;
+    }
+    .veritcalMenu .nav-item {
+        min-width: 200px;
+    }
+    
+    .veritcalMenu .nav-link {
+        text-align: center;
+    }
+    
+    .veritcalMenu .nav-link.active {
+    border-bottom: solid 5px #000;
+    border-left: 0;
+    }
+    .veritcalMenu .tab-content {
+        width: 100%;
+        padding: 10px 0 0;
+    }
+    .veritcalMenu .tab-pane {
+        padding: 0;
+    }
+
+    .smallThumbnailsWrap .col-md-6 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .addressCard .btn {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .leftLoginWrap .rightArea {
+        flex-direction: column
+    }
+    .rightArea .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
