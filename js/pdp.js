@@ -96,9 +96,11 @@ $(window).scroll(function(){
 
     if (leftscroll >= descriptionContainerStart && leftscroll < footerStart) {
         $(".leftImgThumbs").addClass("stickyLeftImg");
+        $(".container").addClass("scrinkedContainer");
     }
     else {
         $(".leftImgThumbs").removeClass("stickyLeftImg");
+        $(".container").removeClass("scrinkedContainer");
     }
 });
 
