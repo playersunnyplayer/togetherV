@@ -798,6 +798,54 @@
     background: #fff5f4;
 }
 
+.videoContent {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    z-index: 5;
+}
+
+.videoContent video {
+    height: 200px;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+    position: relative;
+}
+
+.videoContent .close {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background: #fff;
+    padding: 5px 10px;
+    opacity: 1;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+}
+
+.videoContent .close img {
+    width: 12px;
+    height: 12px;
+}
+
+.videoContent .close:hover {
+    background: #ddd;
+}
+
+#fancyboxlink:after {
+    content: "\f04b";
+    font-family: 'fontawesome';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
 @media only screen and (max-width: 1024px) {
     .pinFormAreaSec .inputGroup {
         width: 100%;

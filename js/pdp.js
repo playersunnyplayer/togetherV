@@ -139,3 +139,7 @@ $(window).scroll(function () {
     $('.stickyMenuSec').removeClass('fixed');
   }
 });
+
+$(".videoContent .close").click(()=>{
+    $(".videoContent").hide()
+})
