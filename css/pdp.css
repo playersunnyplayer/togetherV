@@ -1034,4 +1034,9 @@
     footer {
         padding: 0px 0 130px;
     }
+    .videoContent {
+        top: 10px;
+        right: 10px;
+        transform: initial;
+    }
 }
