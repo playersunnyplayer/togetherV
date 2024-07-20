@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/short_icon.png">
+	<title>togetherv</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css"
+		media="all" />
+	<link rel="stylesheet" href="css/mega-menu-left.css" />
+	<link rel="stylesheet" href="css/mega-menu-desktop.css" />
+
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/listing.css" />
+</head>
+
+<body>
+	<!-- header start -->
+	<header class="header">
+		<!-- mobile menu trigger -->
+		<div class="mobile-menu-trigger">
+			<span></span>
+		</div>
+		<div class="menu-overlay"></div>
+		<nav class="menu">
+			<div class="mobile-menu-head">
+				<div class="go-back"><i class="fa fa-angle-left"></i></div>
+				<div class="current-menu-title"></div>
+				<div class="mobile-menu-close">&times;</div>
+			</div>
+			<ul class="menu-main">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">New <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://th.bing.com/th/id/R.ce8de1adaa3fcc169f0d97c436b8274b?rik=6W1qX6Qp03lNWg&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1504633273314-6a929fcd7090%3fixlib%3drb-0.3.5%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax%26ixid%3deyJhcHBfaWQiOjEyMDd9%26s%3de8e0ff2cce3792a276fa84086113a17c&ehk=chx16tzqSRzpfA6BYM4FNaZZ%2fMJwEtxaqHPW1FZb9FI%3d&risl=&pid=ImgRaw&r=0"
+									alt="Fashion" />
+								<h4 class="title">Fashion</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://img.freepik.com/free-photo/male-technician-repairing-computer-motherboard-wooden-desk_23-2147923493.jpg?w=740&t=st=1671765056~exp=1671765656~hmac=4c8dffc9558819b4c21b126aaa394150f48adc3be9c8004c0b65d0420709ec00"
+									alt="Electronics" />
+								<h4 class="title">Electronics</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://images.unsplash.com/photo-1571380401583-72ca84994796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+									alt="Mobiles" />
+								<h4 class="title">Mobiles</h4>
+							</a>
+						</div>
+						<div class="list-item text-center">
+							<a href="#">
+								<img src="https://images.unsplash.com/photo-1578643463396-0997cb5328c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+									alt="Appliances" />
+								<h4 class="title">Appliances</h4>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Shop <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+						<div class="list-item">
+							<h4 class="title">Men's Fashion</h4>
+							<ul>
+								<li><a href="#">T-Shirts</a></li>
+								<li><a href="#">Jeans</a></li>
+								<li><a href="#">Suit</a></li>
+								<li><a href="#">Kurta</a></li>
+								<li><a href="#">Watch</a></li>
+							</ul>
+							<h4 class="title">Beauty</h4>
+							<ul>
+								<li><a href="#">Moisturizer</a></li>
+								<li><a href="#">Face powder</a></li>
+								<li><a href="#">Lipstick</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<h4 class="title">Women's Fashion</h4>
+							<ul>
+								<li><a href="#">Sarees</a></li>
+								<li><a href="#">Sandals</a></li>
+								<li><a href="#">Watchs</a></li>
+								<li><a href="#">Shoes</a></li>
+							</ul>
+							<h4 class="title">Furniture</h4>
+							<ul>
+								<li><a href="#">Chairs</a></li>
+								<li><a href="#">Tables</a></li>
+								<li><a href="#">Doors</a></li>
+								<li><a href="#">Bed</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<h4 class="title">Home, Kitchen</h4>
+							<ul>
+								<li><a href="#">Kettle</a></li>
+								<li><a href="#">Toaster</a></li>
+								<li><a href="#">Dishwasher</a></li>
+								<li><a href="#">Microwave oven</a></li>
+								<li><a href="#">Pitcher</a></li>
+								<li><a href="#">Blender</a></li>
+								<li><a href="#">Colander</a></li>
+								<li><a href="#">Tureen</a></li>
+								<li><a href="#">Cookware</a></li>
+							</ul>
+						</div>
+						<div class="list-item">
+							<img src="https://images.unsplash.com/photo-1549497538-303791108f95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80"
+								alt="Chair" />
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Blog <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu single-column-menu">
+						<ul>
+							<li><a href="#">Standard Layout</a></li>
+							<li><a href="#">Grid Layout</a></li>
+							<li><a href="#">single Post Layout</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">Pages <i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu single-column-menu">
+						<ul>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+							<li><a href="#">Faq</a></li>
+							<li><a href="#">404 Page</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="container">
+			<div class="row v-center">
+				<a href="#" class="logo">
+					<img src="images/tgv_logo.png" class="bigLogo" alt="">
+					<img src="images/small-logo.png" class="smallLogo" alt="">
+				</a>
+
+				<div class="header-search">
+					<img src="images/search-icon.svg" alt="">
+				</div>
+
+				<div class="header-item item-right">
+					<a href="#"><img src="images/location-icon.svg" alt=""></a>
+					<a href="#"><img src="images/cart-icon.svg" alt=""></a>
+					<a href="#"><img src="images/user-icon.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="categoryRowHeader">
+			<div class="container">
+				<div class="main-wrapper">
+					<nav class="navbar">
+						<div class="navbar-collapse">
+							<ul class="navbar-nav">
+								<li>
+									<a href="#">home</a>
+								</li>
+								<li>
+									<a href="#" class="menu-link">
+										electronics
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">cell phones & accessories</a></li>
+												<li><a href="#">smart tv</a></li>
+												<li><a href="#">computer & laptops</a></li>
+												<li><a href="#">digital cameras</a></li>
+												<li><a href="#">video games & accessories</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">iphones</a></li>
+												<li><a href="#">speakers</a></li>
+												<li><a href="#">samsung devices</a></li>
+												<li><a href="#">audio & headphones</a></li>
+												<li><a href="#">vehicles electronics & GPS</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>all essential devices and tools for home</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										fashion
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">men's clothing</a></li>
+												<li><a href="#">women's clothing</a></li>
+												<li><a href="#">men's shoes</a></li>
+												<li><a href="#">women's shoes</a></li>
+												<li><a href="#">clothing deals</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">fine jewelry</a></li>
+												<li><a href="#">fashion jewelry</a></li>
+												<li><a href="#">men's accessories</a></li>
+												<li><a href="#">handbags & bags</a></li>
+												<li><a href="#">kid's clothing</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>stylish and modern fashion clothing</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										health & beauty
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">makeup</a></li>
+												<li><a href="#">health care</a></li>
+												<li><a href="#">fragrance</a></li>
+												<li><a href="#">hair care & stylings</a></li>
+												<li><a href="#">manicure & pedicure</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">skin care</a></li>
+												<li><a href="#">vitamins</a></li>
+												<li><a href="#">vision care</a></li>
+												<li><a href="#">oral care</a></li>
+												<li><a href="#">shaving & hair removal</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>the latest product is here</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#" class="menu-link">
+										sports
+										<span class="drop-icon">
+											<i class="fa fa-chevron-down"></i>
+										</span>
+									</a>
+									<div class="sub-menu">
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>top categories</h4>
+											<ul>
+												<li><a href="#">cycling</a></li>
+												<li><a href="#">outdoor sports</a></li>
+												<li><a href="#">hunting</a></li>
+												<li><a href="#">fishing</a></li>
+												<li><a href="#">fitness & yoga</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h4>other categories</h4>
+											<ul>
+												<li><a href="#">tennis</a></li>
+												<li><a href="#">swimming</a></li>
+												<li><a href="#">winter sports</a></li>
+												<li><a href="#">fitness technology</a></li>
+												<li><a href="#">sports wear</a></li>
+											</ul>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<h2>gear up for sports & adventures</h2>
+											<button type="button" class="btn">shop here</button>
+										</div>
+										<!-- end of item -->
+										<!-- item -->
+										<div class="sub-menu-item">
+											<img src="images/sub-img-3.jpg" alt="product image">
+										</div>
+										<!-- end of item -->
+									</div>
+								</li>
+
+								<li>
+									<a href="#">deals</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<div class="container">
+		<div class="breadcrumbRow">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Religious Tourism</li>
+			</ol>
+		</div>
+
+		<h3>Religious Tourism</h3>
+
+		<img src="images/religious-banner.png" class="w-100" alt="">
+
+		<section class="weCreate">
+			<div class="row align-items-center">
+				<div class="col-sm-6 leftSec">
+					<img src="images/india-icon.png" class="indiaMap" alt="">
+
+					<div class="bigheading">
+						<div class="primaryColor">We create journey for you,</div>
+						in these cities !
+					</div>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tortor ipsum. Mauris faucibus et nibh quis tristique. Fusce malesuada rhoncus quam, in pharetra odio aliquam et faucibus et nibh.</p>
+				</div>
+
+				<div class="col-sm-6">
+					<img src="images/3-circles.png" class="circles3" alt="">
+				</div>
+			</div>
+		</section>
+
+		<div class="subCategoriesSec fiveColumn citiesSec">
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.7s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.9s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1.0s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+			<a href="" class="subCategoriesThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1.1s">
+				<figure>
+					<img src="images/cities.png" alt="">
+					<figcaption>Delhi</figcaption>
+				</figure>
+			</a>
+		</div>
+
+		<div class="paraWrap">
+			<div class="paraSec">
+				<h4>Please Note</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis quis expedita corrupti quae praesentium, necessitatibus aperiam aliquid ex quam nisi quisquam vel culpa ipsam accusantium illum odio exercitationem quasi!</p>
+			</div>
+
+			<div class="paraSec">
+				<h4>Please Note</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis quis expedita corrupti quae praesentium, necessitatibus aperiam aliquid ex quam nisi quisquam vel culpa ipsam accusantium illum odio exercitationem quasi!</p>
+			</div>
+
+			<div class="paraSec">
+				<h4>Please Note</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis quis expedita corrupti quae praesentium, necessitatibus aperiam aliquid ex quam nisi quisquam vel culpa ipsam accusantium illum odio exercitationem quasi!</p>
+			</div>
+
+			<div class="paraSec">
+				<h4>Please Note</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis quis expedita corrupti quae praesentium, necessitatibus aperiam aliquid ex quam nisi quisquam vel culpa ipsam accusantium illum odio exercitationem quasi!</p>
+			</div>
+		</div>
+	</div>
+
+	<section class="playStorePromotionSec">
+		<div class="container">
+			<div class="leftSec">
+				<p class="get">Get 5% off </p>
+				<p class="onYour">On your first booking</p>
+				<p>Our app is available on google play and app store</p>
+
+				<div class="storeWrap">
+					<img src="images/plane-sketch.svg" class="planeSketch" alt="">
+					<a href="#">
+						<img src="images/app-store-icon.svg" class="appIcon" alt="">
+					</a>
+					<a href="#">
+						<img src="images/play-store-icon.svg" class="appIcon" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="phoneHandWrap">
+				<img src="images/phone-hand.svg" class="phoneHand" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section class="blogSec">
+		<div class="container">
+			<h3>Our latest blogs</h3>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="blogThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s"
+						data-wow-delay="0.2s">
+						<figure><img src="images/blog-img.png" alt=""></figure>
+						<p class="heading">5 Surprise Date Ideas for Couples</p>
+						<p class="para">Deepen your connection and create lasting memories together as you plan a
+							surprise
+							date night for your partner. Whether it’s a romantic dinner at a cosy</p>
+						<p class="mb-3"><a href="#" class="read">Read More</a></p>
+						<div class="bottomSec">
+							<div class="date">10 Nov, 2023</div>
+							<div class="name">MAYANK</div>
+							<div class="arrow">
+								<i class="fa fa-angle-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blogThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s"
+						data-wow-delay="0.4s">
+						<figure><img src="images/blog-img.png" alt=""></figure>
+						<p class="heading">5 Surprise Date Ideas for Couples</p>
+						<p class="para">Deepen your connection and create lasting memories together as you plan a
+							surprise
+							date night for your partner. Whether it’s a romantic dinner at a cosy</p>
+						<p class="mb-3"><a href="#" class="read">Read More</a></p>
+						<div class="bottomSec">
+							<div class="date">10 Nov, 2023</div>
+							<div class="name">MAYANK</div>
+							<div class="arrow">
+								<i class="fa fa-angle-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blogThumb wow animate__animated animate__fadeInUp" data-wow-duration="2s"
+						data-wow-delay="0.6s">
+						<figure><img src="images/blog-img.png" alt=""></figure>
+						<p class="heading">5 Surprise Date Ideas for Couples</p>
+						<p class="para">Deepen your connection and create lasting memories together as you plan a
+							surprise
+							date night for your partner. Whether it’s a romantic dinner at a cosy</p>
+						<p class="mb-3"><a href="#" class="read">Read More</a></p>
+						<div class="bottomSec">
+							<div class="date">10 Nov, 2023</div>
+							<div class="name">MAYANK</div>
+							<div class="arrow">
+								<i class="fa fa-angle-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row footer-row-1">
+				<div class="col-md-2">
+					<h4>Connect With Us</h4>
+					<img class="footer-logo" src="images/footer-logo.svg" alt="">
+					<div class="call-info">
+						<img src="images/phone-icon.svg" alt="">
+						<a href="tel:+91-9711529001">+91-9711529001</a>
+					</div>
+					<div class="call-info">
+						<img src="images/email-icon.svg" alt="">
+						<a href="mailto:info@togetherv.com">info@togetherv.com</a>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<h4>Experiences in Delhi NCR</h4>
+					<ul class="footer-tab">
+						<li class="footer-link"><a href="#">New Year's Decoration in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Balloon Decoration in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Candlelight Dinners in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Cake in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Romantic Stays in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Personalised Gifts in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Digital Gift in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#">Party Decorations in Delhi NCR</a></li>
+						<li class="footer-link"><a href="#" data-toggle="modal" data-target="#ExperiencesPopup">View
+								More <i class="fa fa-angle-right"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2">
+					<h4>Quick Links</h4>
+					<ul class="footer-tab mb-4">
+						<li class="footer-link"><a href="#">About</a></li>
+						<li class="footer-link"><a href="#">Careers</a></li>
+						<li class="footer-link"><a href="#">Partner</a></li>
+						<li class="footer-link"><a href="#">Contact</a></li>
+					</ul>
+
+					<h4>Need Help</h4>
+					<ul>
+						<li class="footer-link"><a href="#">Our Policies</a></li>
+						<li class="footer-link"><a href="#">FAQ</a></li>
+						<li class="footer-link"><a href="#">Terms of Use</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2">
+					<h4>Secured With</h4>
+					<img class="footer-logo" src="images/razorpay.svg" alt="">
+					<img class="footer-logo" src="images/SSLcertificate.svg" alt="">
+				</div>
+
+				<div class="col-md-3">
+					<h4>Stay Tuned With Us</h4>
+					<p>For latest updates, deals &amp; offers direct in your inbox</p>
+
+					<div class="mb-3 newsletter">
+						<img src="images/newsletter-mail-icon.svg" class="newsletter-mail-icon" alt="">
+						<input type="text" class="form-control" placeholder="Enter your email id">
+						<img src="images/newsletter-arrow-right.svg" class="newsletter-arrow-right" alt="">
+					</div>
+
+					<div class="social-icons">
+						<a class="social-link" href="#"><i class="fa fa-facebook"></i></a>
+						<a class="social-link" href="#"><i class="fa fa-instagram"></i></a>
+						<a class="social-link" href="#"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyrightSec">
+			© copyright 2023-24, nikunj software technologies private limited
+		</div>
+
+		<button onclick="topFunction()" id="goToTop" title="Go to top"><i class="fa fa-angle-up"></i></button>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="js/mega-menu-left.js"></script>
+	<script src="js/mega-menu-desktop.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+	
+	<script>
+		$(".stickyFilter").click(() => {
+			$(".filterSecWrap").fadeIn()
+		})
+		$("#closeBtn").click(() => {
+			$(".filterSecWrap").fadeOut()
+		})
+
+		var heartFrame1 = document.getElementsByClassName('heartFrame1');
+		new simpleParallax(heartFrame1);
+	</script>
+</body>
+
+</html>

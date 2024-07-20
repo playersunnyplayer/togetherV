@@ -68,6 +68,32 @@
     padding: 0 6px;
 }
 
+.citiesSec {
+    margin: 60px 0;
+}
+
+.weCreate {
+    margin: 70px 0;
+}
+
+.weCreate .leftSec {
+    position: relative;
+}
+
+.weCreate .bigheading {
+    margin: 0 0 30px;
+}
+
+.weCreate .leftSec p {
+    max-width: 500px;
+}
+
+.indiaMap {
+    position: absolute;
+    top: -50%;
+    right: 0;
+}
+
 @media screen and (max-width: 1024px) {
     .subCategoriesThumb {
         width: 50% !important;
