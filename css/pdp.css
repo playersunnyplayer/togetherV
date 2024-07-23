@@ -261,6 +261,64 @@
     width: 100%;
 }
 
+.city-descriptionContainer {
+    background: none;
+    margin: 20px 0 0;
+}
+
+.city-descriptionContainer .card-header small {
+    display: block
+}
+
+.city-descriptionContainer .well {
+    background: #F5F5F5;
+    margin: 0 0 20px;
+    padding: 20px;
+}
+
+.city-descriptionContainer .well .thumbIcons {
+    display: flex;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.city-descriptionContainer .well .thumbIcons img {
+    width: 20px;
+    margin: 0 16px 0 0;
+}
+
+.city-descriptionContainer h2,
+.city-descriptionContainer .collapse {
+    position: relative
+}
+
+.city-descriptionContainer h2:after,
+.city-descriptionContainer .collapse:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    border-left: dashed 1px #bbb;
+    height: calc(100% - 36px);
+    top: 36px;
+    left: 30px;
+}
+
+.city-descriptionContainer .collapse:after {
+    top: 0
+}
+
+.city-descriptionContainer .locationIcon {
+    left: 20px;
+    top: 12px;
+    position: absolute;
+}
+
+.city-descriptionContainer .actionIcon {
+    left: initial;
+    right: 20px;
+    top: 20px;
+}
+
 .descriptionSec {
     padding: 60px 0 0;
 }
@@ -846,6 +904,80 @@
     color: #fff;
 }
 
+.starWrap {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0;
+    gap: 20px;
+}
+
+.share {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: initial;
+}
+
+.share img {
+    height: 16px;
+}
+
+.pricewrapSec {
+    border: solid 1px #E70F14;
+    padding: 20px;
+}
+
+.pricewrapSec.fixed {
+    position: sticky;
+    top: 0
+}
+
+.pricewrapSec .priceSec {
+    margin: 0 0 10px
+}
+
+.pricewrapSec .icon {
+ width: 14px;
+ margin: 0 6px 0 0;
+}
+
+.pricewrapSec p {
+ margin: 0 0 10px 0;
+}
+
+.pricewrapSec h4 {
+    margin: 30px 0 20px;
+}
+
+.pricewrapSec .iconsWrap {
+    display: flex;
+    margin: 0 0 30px;
+    gap: 40px;
+}
+
+.pricewrapSec .thumb {text-align: center;}
+
+.pricewrapSec .thumb figure {
+    margin: 0 0 6px;
+}
+
+.pricewrapSec .thumb figure img {
+    width: 30px;
+}
+
+.bookBtnWrap {
+    text-align: center;
+}
+
+.bookBtnWrap .btn {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.bookBtnWrap a {
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 1024px) {
     .pinFormAreaSec .inputGroup {
         width: 100%;
@@ -1038,5 +1170,8 @@
         top: 10px;
         right: 10px;
         transform: initial;
+    }
+    .city-descriptionContainer h2:after, .city-descriptionContainer .collapse:after {
+        display: none;
     }
 }

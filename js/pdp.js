@@ -91,16 +91,19 @@ function closePersonalizationDetailsSection() {
 
 $(window).scroll(function(){
     let leftscroll = $(window).scrollTop();
-    let descriptionContainerStart = $(".descriptionContainerJs").offset().top;
+    let descriptionlen = $(".descriptionContainerJs");
     let footerStart = $(".blogSecJs").offset().top;
-
-    if (leftscroll >= descriptionContainerStart && leftscroll < footerStart) {
-        $(".leftImgThumbs").addClass("stickyLeftImg");
-        $(".container").addClass("scrinkedContainer");
-    }
-    else {
-        $(".leftImgThumbs").removeClass("stickyLeftImg");
-        $(".container").removeClass("scrinkedContainer");
+    
+    if (descriptionlen.length) {
+        let descriptionContainerStart = $(".descriptionContainerJs").offset().top;
+        if (leftscroll >= descriptionContainerStart && leftscroll < footerStart) {
+            $(".leftImgThumbs").addClass("stickyLeftImg");
+            $(".container").addClass("scrinkedContainer");
+        }
+        else {
+            $(".leftImgThumbs").removeClass("stickyLeftImg");
+            $(".container").removeClass("scrinkedContainer");
+        }
     }
 });
 
@@ -129,15 +132,33 @@ $(function(){
 
 // sticky menu scrollspy
 $('body').scrollspy({ target: '#navbar-example2' })
-var bottom = $('.stickyMenuSec').offset().top - 1500;
-$(window).scroll(function () {
 
-  if ($(this).scrollTop() > bottom) {
-    $('.stickyMenuSec').addClass('fixed');
-  }
-  else {
-    $('.stickyMenuSec').removeClass('fixed');
-  }
+$(window).scroll(function () {
+    var bottomLen = $('.stickyMenuSec');
+    var pricewrapSeclen = $('.pricewrapSec');
+    
+    if (pricewrapSeclen.length) {
+        var pricewrapSec = $('.pricewrapSec').offset().top;
+        var playStorePromotionSecJs = $('.playStorePromotionSecJs').offset().top;
+        
+        if ($(this).scrollTop() > pricewrapSec) {
+            $('.pricewrapSec').removeClass('fixed');
+        }
+        
+        if ($(this).scrollTop() < playStorePromotionSecJs) {
+            $('.pricewrapSec').addClass('fixed');
+        }
+    }
+
+    if (bottomLen.length) {
+        var bottom = $('.stickyMenuSec').offset().top - 1500;
+        if ($(this).scrollTop() > bottom) {
+            $('.stickyMenuSec').addClass('fixed');
+        }
+        else {
+            $('.stickyMenuSec').removeClass('fixed');
+        }
+    }
 });
 
 $(".videoContent .close").click(()=>{
